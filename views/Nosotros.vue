@@ -1,0 +1,235 @@
+<template>
+  <div class="category-page">
+    
+    <div class="category-banner" style="background-color: #283593;">
+      <div class="banner-content">
+        <h1 class="banner-title">Conócenos</h1>
+        <p class="banner-desc">
+          Somos más que un restaurante: una propuesta gastronómica comprometida con la frescura, el sabor auténtico y la hospitalidad.
+        </p>
+      </div>
+    </div>
+
+    <div class="page-container">
+
+      
+      <div class="nosotros-section q-mb-xl">
+        <q-card flat bordered class="info-card">
+          <q-card-section>
+            <div class="info-section-title">
+              <q-icon name="restaurant" color="deep-orange" />
+              Nuestra Historia
+            </div>
+            <p class="info-text">
+              <strong>Ruta Del Sabor</strong> nació en el año 2018 en Bogotá, con la visión de llevar a las familias y amigos recetas clásicas con el toque y la calidad de la cocina artesanal. Lo que comenzó como un proyecto enfocado en hamburguesas gourmet, hoy reúne una propuesta integral de comida rápida de alta calidad: pizzas en horno de piedra, perros calientes con aderezos caseros, bebidas naturales y postres elaborados diariamente.
+            </p>
+            <p class="info-text" style="margin-top: 12px;">
+              Nuestra filosofía de trabajo se centra en ingredientes frescos, porciones generosas y un servicio oportuno y cercano. Cada plato es preparado al momento con insumos de productores locales certificados, garantizando sabor y nutrición en cada entrega.
+            </p>
+          </q-card-section>
+        </q-card>
+      </div>
+
+      
+      <div class="nosotros-info-grid q-mb-xl">
+
+        <q-card flat bordered class="info-card">
+          <q-card-section>
+            <div class="info-section-title">
+              <q-icon name="place" color="red-8" />
+              Dirección
+            </div>
+            <div class="info-item">
+              <q-icon name="location_on" color="red-7" size="1.2rem" />
+              
+            </div>
+            <div class="info-item">
+              <q-icon name="near_me" color="grey-7" size="1.2rem" />
+              
+            </div>
+          </q-card-section>
+        </q-card>
+
+        <q-card flat bordered class="info-card">
+          <q-card-section>
+            <div class="info-section-title">
+              <q-icon name="schedule" color="indigo" />
+              Horarios de Atención
+            </div>
+            <div class="hours-table">
+              <div class="hours-row">
+                
+                
+              </div>
+              <q-separator spaced />
+              <div class="hours-row highlight-row">
+                
+                
+              </div>
+              <q-separator spaced />
+              <div class="hours-row">
+                
+                
+              </div>
+            </div>
+          </q-card-section>
+        </q-card>
+
+        <q-card flat bordered class="info-card">
+          <q-card-section>
+            <div class="info-section-title">
+              <q-icon name="phone_in_talk" color="positive" />
+              Teléfono y Pedidos
+            </div>
+            <div class="info-item">
+              <q-icon name="phone" color="positive" size="1.2rem" />
+              
+            </div>
+            <div class="info-item">
+              <q-icon name="chat" color="positive" size="1.2rem" />
+              
+            </div>
+            <div class="info-item" style="margin-top: 10px;">
+              <q-icon name="delivery_dining" color="orange-9" size="1.2rem" />
+              
+            </div>
+          </q-card-section>
+        </q-card>
+
+      </div>
+
+      
+      <div class="section-header">
+        <h2 class="section-title">Nuestro Equipo</h2>
+        <p class="section-sub">Las personas dedicadas a brindar el mejor servicio en cada preparación</p>
+      </div>
+
+      <div class="team-grid">
+
+        
+        <q-card class="team-card" flat bordered>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQIHO6Ix0xcCpdMbrNI91R64Gw8zwnaq3pdL4HXhu5AdTuPk8zsjkHP7O&s=10" alt="Imagen de equipo" style="width: 100%; height: 200px; object-fit: cover; background-color: #eee;" />
+          <q-card-section style="padding-top: 0;">
+            <div class="team-name">Andrés Molina</div>
+            <div class="team-role">Chef Principal y Fundador</div>
+            <q-badge color="deep-orange" label="Cocina Caliente" class="q-mb-sm" />
+            <p style="font-size: 0.82rem; color: #616161; margin: 6px 0 0;">
+              Más de 10 años al frente de parrillas y formulación de recetas artesanales.
+            </p>
+          </q-card-section>
+        </q-card>
+
+        
+        <q-card class="team-card" flat bordered>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3uy_VdrD7JVhmTa0ForC5KDYvzNXoIeFc-_JuBvEV3y7P2My12BGtXc&s=10" alt="Imagen de equipo" style="width: 100%; height: 200px; object-fit: cover; background-color: #eee;" />
+          <q-card-section style="padding-top: 0;">
+            <div class="team-name">Valentina Torres</div>
+            <div class="team-role">Atención al Cliente y Caja</div>
+            <q-badge color="indigo" label="Servicio al Cliente" class="q-mb-sm" />
+            <p style="font-size: 0.82rem; color: #616161; margin: 6px 0 0;">
+              Encargada de brindar atención cordial y agilidad en cada uno de tus pedidos.
+            </p>
+          </q-card-section>
+        </q-card>
+
+        
+        <q-card class="team-card" flat bordered>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI16xRorc04236ah-tZ1o1a_kyToOaCdH5ATeq3mlIAA&s=10" alt="Imagen de equipo" style="width: 100%; height: 200px; object-fit: cover; background-color: #eee;" />
+          <q-card-section style="padding-top: 0;">
+            <div class="team-name">Diego Ramírez</div>
+            <div class="team-role">Coordinador de Entregas</div>
+            <q-badge color="positive" label="Logística Express" class="q-mb-sm" />
+            <p style="font-size: 0.82rem; color: #616161; margin: 6px 0 0;">
+              Gestiona los despachos a domicilio cuidando que cada pedido llegue en temperatura óptima.
+            </p>
+          </q-card-section>
+        </q-card>
+
+        
+        <q-card class="team-card" flat bordered>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrA-Kt6Y5purFSb7bMuZU64Z-iF-kluEgDhfT9QJvhjY8z4ZxkfoXvizkO&s=10" alt="Imagen de equipo" style="width: 100%; height: 200px; object-fit: cover; background-color: #eee;" />
+          <q-card-section style="padding-top: 0;">
+            <div class="team-name">Sebastián Gutiérrez</div>
+            <div class="team-role">Cocinero Especialista</div>
+            <q-badge color="amber-9" label="Pizzas y Repostería" class="q-mb-sm" />
+            <p style="font-size: 0.82rem; color: #616161; margin: 6px 0 0;">
+              Especialista en masa napolitana, postres caseros y ensamble de promociones.
+            </p>
+          </q-card-section>
+        </q-card>
+
+      </div>
+
+    </div>
+  </div>
+</template>
+
+<script setup>
+</script>
+
+<style scoped>
+.nosotros-section {
+  margin-bottom: 24px;
+}
+
+.info-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #37474f;
+  margin: 0;
+}
+
+.nosotros-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #37474f;
+}
+
+.hours-table {
+  margin-top: 4px;
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 0.9rem;
+}
+
+.hours-day {
+  color: #37474f;
+  font-weight: 500;
+}
+
+.hours-time {
+  color: #546e7a;
+}
+
+.highlight-row {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+.highlight-time {
+  color: #d84315;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .nosotros-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
