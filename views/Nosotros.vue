@@ -17,7 +17,7 @@
         <q-card flat bordered class="info-card">
           <q-card-section>
             <div class="info-section-title">
-              <q-icon name="restaurant" color="deep-orange" />
+              
               Nuestra Historia
             </div>
             <p class="info-text">
@@ -36,16 +36,22 @@
         <q-card flat bordered class="info-card">
           <q-card-section>
             <div class="info-section-title">
-              <q-icon name="place" color="red-8" />
+              
               Dirección
             </div>
             <div class="info-item">
-              <q-icon name="location_on" color="red-7" size="1.2rem" />
               
+              <div>
+                <strong>Sede Principal:</strong>
+                <div>Carrera 15 # 85-32, Zona Rosa, Bogotá</div>
+              </div>
             </div>
             <div class="info-item">
-              <q-icon name="near_me" color="grey-7" size="1.2rem" />
               
+              <div>
+                <strong>Punto de Referencia:</strong>
+                <div>A dos cuadras del Parque El Virrey, Chapinero</div>
+              </div>
             </div>
           </q-card-section>
         </q-card>
@@ -53,23 +59,23 @@
         <q-card flat bordered class="info-card">
           <q-card-section>
             <div class="info-section-title">
-              <q-icon name="schedule" color="indigo" />
+              
               Horarios de Atención
             </div>
             <div class="hours-table">
               <div class="hours-row">
-                
-                
+                <div class="hours-day">Lunes a Jueves</div>
+                <div class="hours-time">11:30 AM - 10:00 PM</div>
               </div>
               <q-separator spaced />
               <div class="hours-row highlight-row">
-                
-                
+                <div class="hours-day">Viernes y Sábados</div>
+                <div class="highlight-time">11:30 AM - 11:30 PM</div>
               </div>
               <q-separator spaced />
               <div class="hours-row">
-                
-                
+                <div class="hours-day">Domingos y Festivos</div>
+                <div class="hours-time">12:00 PM - 9:30 PM</div>
               </div>
             </div>
           </q-card-section>
@@ -78,20 +84,29 @@
         <q-card flat bordered class="info-card">
           <q-card-section>
             <div class="info-section-title">
-              <q-icon name="phone_in_talk" color="positive" />
+              
               Teléfono y Pedidos
             </div>
             <div class="info-item">
-              <q-icon name="phone" color="positive" size="1.2rem" />
               
+              <div>
+                <strong>Línea Telefónica:</strong>
+                <div>(601) 745-8920</div>
+              </div>
             </div>
             <div class="info-item">
-              <q-icon name="chat" color="positive" size="1.2rem" />
               
+              <div>
+                <strong>WhatsApp Pedidos:</strong>
+                <div>+57 315 890 1234</div>
+              </div>
             </div>
             <div class="info-item" style="margin-top: 10px;">
-              <q-icon name="delivery_dining" color="orange-9" size="1.2rem" />
               
+              <div>
+                <strong>Servicio a Domicilio:</strong>
+                <div>Bogotá Norte y Chapinero (Rappi, DiDi o Directo)</div>
+              </div>
             </div>
           </q-card-section>
         </q-card>
@@ -189,10 +204,18 @@
 .info-item {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 12px;
+  margin-bottom: 12px;
   font-size: 0.9rem;
   color: #37474f;
+  line-height: 1.45;
+}
+
+.info-item strong {
+  display: block;
+  color: #212121;
+  font-size: 0.88rem;
+  margin-bottom: 2px;
 }
 
 .hours-table {
