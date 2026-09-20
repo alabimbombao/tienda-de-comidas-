@@ -162,7 +162,7 @@
 
         
         <q-card class="team-card" flat bordered>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrA-Kt6Y5purFSb7bMuZU64Z-iF-kluEgDhfT9QJvhjY8z4ZxkfoXvizkO&s=10" alt="Imagen de equipo" style="width: 100%; height: 200px; object-fit: cover; background-color: #eee;" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQOmq448yDZilMXoelBaEHO78I_7VmQT0xCl7vsOjaA&s=10" alt="Imagen de equipo" style="width: 100%; height: 200px; object-fit: cover; background-color: #eee;" />
           <q-card-section style="padding-top: 0;">
             <div class="team-name">Sebastián Gutiérrez</div>
             <div class="team-role">Cocinero Especialista</div>
@@ -253,6 +253,48 @@
 @media (max-width: 600px) {
   .nosotros-info-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.team-card {
+  width: 100%;
+  min-height: 420px;
+}
+
+.team-card img {
+  width: 100%;
+  height: 280px !important;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #212121;
+  margin-top: 12px;
+}
+
+.team-role {
+  font-size: 0.95rem;
+  color: #616161;
+  margin: 4px 0 10px;
+}
+
+/* En celulares: una card por fila */
+@media (max-width: 600px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-card img {
+    height: 240px !important;
   }
 }
 </style>

@@ -29,7 +29,7 @@
           <div class="promo-card-inner">
             <div class="promo-img-wrapper">
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEJ1rLsoRT5HisMr_g3m650a9Kl4Gbp7DkqMMxQQIxg&s=10" 
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop" 
                 alt="Combo Hamburguesa Clásica" 
                 class="product-img" 
               />
@@ -53,7 +53,7 @@
           <div class="promo-card-inner">
             <div class="promo-img-wrapper">
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOoUp0L4VXYH0kPNLiNn2HVh7rLhaYPzFDj0wABkacoPnPhmEp1XKgWk&s=10" 
+                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop" 
                 alt="Combo Pizza Personal" 
                 class="product-img" 
               />
@@ -77,7 +77,7 @@
           <div class="promo-card-inner">
             <div class="promo-img-wrapper">
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpZXxesSBpLMI_ZkOFPOAKTT3vQMvfx9rPtKIk1iZ_1jFw3gKtSpl-o8lj&s=10" 
+                src="https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?q=80&w=800&auto=format&fit=crop" 
                 alt="2x1 Perros Calientes" 
                 class="product-img" 
               />
@@ -110,7 +110,7 @@
         <q-card class="product-card" flat bordered>
           <div class="product-img-wrapper">
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgdoxAQxMgx8JtnM6ZUFw7JDdqhLImppdJunHLzAPyRA&s=10" 
+              src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop" 
               alt="Brownie con Helado" 
               class="product-img" 
             />
@@ -129,7 +129,7 @@
         <q-card class="product-card" flat bordered>
           <div class="product-img-wrapper">
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYH8sENu8Pg7OAPs7PivuXoS-0DdJu7MclJmvDcDsrMQ&s=10" 
+              src="https://images.unsplash.com/photo-1579954115545-a95591f28bfc?q=80&w=800&auto=format&fit=crop" 
               alt="Malteada Doble" 
               class="product-img" 
             />
@@ -148,7 +148,7 @@
         <q-card class="product-card" flat bordered>
           <div class="product-img-wrapper">
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCcs_kyLCDEqQljzMtj7Rd_iwz5MK2yh-NErdOT80dJORP0_JAV6Tu_NBw&s=10" 
+              src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop" 
               alt="Pizza Familiar" 
               class="product-img" 
             />
@@ -167,7 +167,7 @@
         <q-card class="product-card" flat bordered>
           <div class="product-img-wrapper">
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1r4JLuteIAwJ2TrH6bpX-ayfDEU94ur5S4OzwKBbHG-hcb-mpNRLoKk&s=10" 
+              src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?q=80&w=800&auto=format&fit=crop" 
               alt="Combo Universitario" 
               class="product-img" 
             />
@@ -200,26 +200,7 @@
   overflow: hidden;
 }
 
-/* 1. Muestra la imagen 100% COMPLETA sin recortar */
-.chef-img,
-.promo-img,
-.product-img {
-  width: 100% !important;
-  height: auto !important; /* Permite que el alto se adapte a la imagen original */
-  object-fit: contain !important; 
-  display: block;
-}
 
-/* 2. Quita el aspect-ratio fijo para que el contenedor se encoja/agrande según la foto */
-.chef-img-wrapper,
-.promo-img-wrapper,
-.product-img-wrapper {
-  position: relative;
-  width: 100%;
-  height: auto; /* El contenedor se ajusta automáticamente al alto de la imagen */
-  overflow: hidden;
-  background-color: transparent;
-}
 .promo-alert {
   background: #fff8e1;
   border: 1px solid #ffe082;
