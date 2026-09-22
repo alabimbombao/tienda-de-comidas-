@@ -94,7 +94,7 @@
         <q-card class="product-card" flat bordered>
           <div class="product-img-wrapper">
             
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrkYToNw081UV6t_OSd5TRX_A-zrGUskGv2UZ6-QAAAg&s=10" alt="Gaseosa" class="product-img"
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo87tDHAHGCqJ4a_E-IQV494aX_M4mI68oglgzmJa7Bg&s" alt="Gaseosa" class="product-img"
               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
             <div class="img-placeholder">
               
